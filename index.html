@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html ng-app="Exemplo">
+<head>
+  <title>Data Binding</title>
+</head>
+<body ng-controller="ExemploCtrl">
+  Digite seu nome: 
+  <input ng-model="nome"/>
+  <br/>
+  <h3 ng-if="nome">
+    Oi {{nome}} como vai ?
+  </h3>
+
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
+
+
